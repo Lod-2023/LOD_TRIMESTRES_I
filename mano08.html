@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Set basico de 1.5/2.0 mm No 08</title>
+    <link rel="icon" href="img/LOD250.png">
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <rigth><img src="img/img_LOD.png" width="50" height="50"></rigth>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
+                class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Buscar..." aria-label="Buscar..."
+                    aria-describedby="btnNavbarSearch" />
+                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                        class="fas fa-search"></i></button>
+            </div>
+        </form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#!">Ajustes</a></li>
+                    <li><a class="dropdown-item" href="#!">Registro de actividades</a></li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#!">Cerrar sesion</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Panel de control</div>
+                        <a class="nav-link" href="index.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Inicio
+                        </a>
+                        <div class="sb-sidenav-menu-heading">Actividades</div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Disponibilidad
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <!-- <a class="nav-link" href="layout-static.html"></a> -->
+                                <a class="nav-link" href="caso_nuevo.html">👩‍💻Crear solicitud</a>
+                            </nav>
+                        </div>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <!-- <a class="nav-link" href="layout-static.html"></a> -->
+                                <a class="nav-link" href="C:\Users\m_on_\Desktop\LOD\proyecto_LOD\agenda.html">📘 Agenda
+                                    comercial</a>
+                            </nav>
+                        </div>               
+                        <a class="nav-link" href="sets.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-search"></i></div>
+                            🔩 Sets
+                        </a>
+                        <a class="nav-link" href="tables.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Clientes
+                        </a>                        
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
+                            aria-expanded="false" aria-controls="collapsePages">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            Linea Ortopedica
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                                    data-bs-target="#pagesCollapseAuth" aria-expanded="false"
+                                    aria-controls="pagesCollapseAuth">
+                                     Familia
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
+                                    data-bs-parent="#sidenavAccordionPages">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/medicina-deportiva/">Medicina
+                                            Deportiva</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/trauma/">Trauma</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/fijacion-externa/">Fijacion
+                                            Externa</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/craneomaxilofacial/">Maxilo</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/endoprotesis/">Endoprotesis</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/columna/">Columna</a>
+                                    </nav>
+                                </div>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Lod:</div>
+
+                </div>
+
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    <h1 class="mt-4">Set basico de 1.5/2.0 mm No 08</h1>
+                    <ol class="breadcrumb mb-4">
+                        <li class="breadcrumb-item"><a href="index.html">Regresar</a></li>
+                        <!-- <li class="breadcrumb-item active"></li> -->
+                    </ol>
+                    <div class="card mb-4">
+                        <div class="card-body">
+
+                        </div>
+
+                        <style>
+                            body {
+                                padding: 20px;
+                            }
+
+                            .event {
+                                margin-bottom: 50px;
+                            }
+
+                            h2 {
+                                color: rgb(42, 24, 158);
+                            }
+                        </style>
+                        </head>
+
+                        <body>
+                            <!-- <div class="container">
+                                <h1>Caso Nuevo</h1>-->
+
+                            <div id="events-container">
+                                <h2>Detalles del Equipo/Completo</h2>
+                            </div>
+
+                            <div class="card">
+                                <h5 class="card-header">Items</h5>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Codigo</td>
+                                            <td>Nombre</td>
+                                            <td></td>
+                                            <td>Existencia </td>
+                                            <td>Faltante</td>
+                                        </tr>
+                                        <tr>
+                                            <td>40708008</td>
+                                            <td>Set basico de 1.5/2.0 mm No 08</td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476504</td>
+                                            <td>Placa de compresion y bloqueo HLH de 1.5 mm recta x 4 orif ti</td>
+                                            <td>170071741</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476506</td>
+                                            <td>Placa de compresion y bloqueo HLH de 1.5 mm recta x 6 orif ti</td>
+                                            <td>190141691</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476006</td>
+                                            <td>Placa de reconstruccion bloqueada HLH de 1.5 mm recta x 6 orif ti</td>
+                                            <td>210189075</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476012</td>
+                                            <td>Placa de reconstruccion bloqueada HLH de 1.5 mm recta x 12 orif ti</td>
+                                            <td>190149175</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476608</td>
+                                            <td>Placa en T HLH de 1.5 mm de 8 x 3 orif ti</td>
+                                            <td>210190641</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476408</td>
+                                            <td>Placa en T HLH de 1.5 mm de 8 x 4 orif ti</td>
+                                            <td>10905506</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029478308</td>
+                                            <td>Placa en Y HLH de 1.5 mm de 8 x 3 orif ti</td>
+                                            <td>11167262</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029475906</td>
+                                            <td>Placa Condilar HLH de 1.5 mm de 6 x 2 orif ti</td>
+                                            <td>11193561</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475806</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 6 mm ti</td>
+                                            <td>180123249</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475807</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 7 mm ti</td>
+                                            <td>180115513</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475808</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 8 mm ti</td>
+                                            <td>200174123</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475809</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 9 mm ti</td>
+                                            <td>200167002</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475810</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 10 mm ti</td>
+                                            <td>200174257</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475811</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 11 mm ti</td>
+                                            <td>180115512</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475812</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 12 mm ti</td>
+                                            <td>200167968</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475813</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 13 mm ti</td>
+                                            <td>514045260</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475814</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 14 mm ti</td>
+                                            <td>210194338</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475815</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 15 mm ti</td>
+                                            <td>514045280</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475816</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 16 mm ti</td>
+                                            <td>513001450</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475818</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 1.5 mm x 18 mm ti</td>
+                                            <td>513001450</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475706</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 6 mm ti</td>
+                                            <td>190139856</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475707</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 7 mm ti</td>
+                                            <td>180095214</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475708</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 8 mm ti</td>
+                                            <td>210188972</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475709</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 9 mm ti</td>
+                                            <td>210188972</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475711</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 10 mm ti</td>
+                                            <td>210203318</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475711</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 11 mm ti</td>
+                                            <td>10988183</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475712</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 12 mm ti</td>
+                                            <td>210202783</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475713</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 13 mm ti</td>
+                                            <td>210202783</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475714</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 14 mm ti</td>
+                                            <td>11081414</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475715</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 15 mm ti</td>
+                                            <td>200166516</td>
+                                            <td>6</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475716</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 16 mm ti</td>
+                                            <td>190142653</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475718</td>
+                                            <td>Tornillo cortical autorroscante HLH de 1.5 mm x 18 mm ti</td>
+                                            <td>190142653</td>
+                                            <td>4</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029475404</td>
+                                            <td>Placa de compresion y bloqueo HLH de 2.0 mm recta x 4 orif ti</td>
+                                            <td>170078467</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029475405</td>
+                                            <td>Placa de compresion y bloqueo HLH de 2.0 mm recta x 5 orif ti</td>
+                                            <td>210202855</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029475406</td>
+                                            <td>Placa de compresion y bloqueo HLH de 2.0 mm recta x 6 orif ti</td>
+                                            <td>200164478</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029475407</td>
+                                            <td>Placa de compresion y bloqueo HLH de 2.0 mm recta x 7 orif ti</td>
+                                            <td>311111910</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029475408</td>
+                                            <td>Placa de compresion y bloqueo HLH de 2.0 mm recta x 8 orif ti</td>
+                                            <td>170077702</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476107</td>
+                                            <td>Placa en T HLH de 2.0 mm de 7 x 3 orif ti</td>
+                                            <td>210189529</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029475307</td>
+                                            <td>Placa Condilar HLH de 2.0 mm de 7 x 2 orif ti</td>
+                                            <td>11017653</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476307</td>
+                                            <td>Placa en Y-Adaptacion HLH de 2.0 mm de 7 x 3 orif ti</td>
+                                            <td>170008337</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4029476207</td>
+                                            <td>Placa en T-Adaptacion HLH de 2.0 mm de 7 x 2 orif ti</td>
+                                            <td>180107659</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475608</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 8 mm ti</td>
+                                            <td>10934167</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475609</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 9 mm ti</td>
+                                            <td>10934167</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475610</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 10 mm ti</td>
+                                            <td>10934167</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475611</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 11 mm ti</td>
+                                            <td>200173268</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475612</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 12 mm ti</td>
+                                            <td>210187213</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475613</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 13 mm ti</td>
+                                            <td>190159918</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475614</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 14 mm ti</td>
+                                            <td>11098651</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475616</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 16 mm ti</td>
+                                            <td>210191602</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475618</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 18 mm ti</td>
+                                            <td>210191602</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475620</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 20 mm ti</td>
+                                            <td>210191602</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475622</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 22 mm ti</td>
+                                            <td>210191602</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475624</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 24 mm ti</td>
+                                            <td>210191602</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475626</td>
+                                            <td>Tornillo de bloqueo autorroscante HLH de 2.0 mm x 26 mm ti</td>
+                                            <td>210191602</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475508</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 8 mm ti</td>
+                                            <td>190159661</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475509</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 9 mm ti</td>
+                                            <td>190159661</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475510</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 10 mm ti</td>
+                                            <td>210198902</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475511</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 11 mm ti</td>
+                                            <td>200167276</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475512</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 12 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475513</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 13 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475514</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 14 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475516</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 16 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475518</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 18 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475520</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 20 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>3</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475522</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 22 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>2</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475524</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 24 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>2</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4039475526</td>
+                                            <td>Tornillo cortical autorroscante HLH de 2.0 mm x 26 mm ti</td>
+                                            <td>210191027</td>
+                                            <td>2</td>
+                                            <td>0</td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                                <a class="btn btn-primary" href="index.html">volver</a>
+                                <a class="btn btn-primary" href="index.html">Modificar set</a>
+
+                            </div>
+                            </form>
+                    </div>
+                </div>
+        </div>
+
+        <script>
+            // Obtener referencias a los elementos del DOM
+            const eventsContainer = document.getElementById("events-container");
+            const eventForm = document.getElementById("event-form");
+            const eventFor1 = document.getElementById("event-for1");
+            const titleInput = document.getElementById("title-input");
+            const datetimeInput = document.getElementById("datetime-input");
+
+            // Manejador de envío del formulario
+
+
+            eventForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+
+                // Obtener los valores del formulario
+                const title = titleInput.value;
+                const datetime = datetimeInput.value;
+
+                // Crear el elemento del evento
+                const eventElement = document.createElement("div");
+                eventElement.classList.add("card", "event");
+
+                const cardBody = document.createElement("div");
+                cardBody.classList.add("card-body");
+
+                const titleElement = document.createElement("h5");
+                titleElement.classList.add("card-title");
+                titleElement.textContent = title;
+
+                const timeElement = document.createElement("p");
+                timeElement.classList.add("card-text");
+                timeElement.textContent = formatDatetime(datetime);
+
+                cardBody.appendChild(titleElement);
+                cardBody.appendChild(timeElement);
+                eventElement.appendChild(cardBody);
+
+                // Agregar el evento al contenedor
+                eventsContainer.appendChild(eventElement);
+
+                // Limpiar el formulario
+                titleInput.value = "";
+                datetimeInput.value = "";
+            });
+
+            // Formatear la fecha y hora en formato legible
+            function formatDatetime(datetime) {
+                const options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+                return new Date(datetime).toLocaleDateString('en-US', options);
+            }
+        </script>
+</body>
+
+</html>
+
+
+
+</div>
+</div>
+</main>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>

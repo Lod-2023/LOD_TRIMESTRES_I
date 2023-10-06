@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Agenda Comercial</title>
+    <link rel="icon" href="img/LOD250.png">
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <rigth><img src="img/img_LOD.png" width="50" height="50"></rigth>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
+                class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Buscar..." aria-label="Buscar..."
+                    aria-describedby="btnNavbarSearch" />
+                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                        class="fas fa-search"></i></button>
+            </div>
+        </form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#!">Ajustes</a></li>
+                    <li><a class="dropdown-item" href="#!">Registro de actividades</a></li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#!">Cerrar sesion</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Panel de control</div>
+                        <a class="nav-link" href="index.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Inicio
+                        </a>
+                        <div class="sb-sidenav-menu-heading">Actividades</div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Disponibilidad
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <!-- <a class="nav-link" href="layout-static.html"></a> -->
+                                <a class="nav-link" href="caso_nuevo.html">👩‍💻Crear solicitud</a>
+                            </nav>
+                        </div>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <!-- <a class="nav-link" href="layout-static.html"></a> -->
+                                <a class="nav-link" href="C:\Users\m_on_\Desktop\LOD\proyecto_LOD\agenda.html">📘 Agenda
+                                    comercial</a>
+                            </nav>
+                        </div>
+                        <a class="nav-link" href="sets.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-search"></i></div>
+                            🔩 Sets
+                        </a>
+                        <a class="nav-link" href="tables.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Clientes
+                        </a>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
+                            aria-expanded="false" aria-controls="collapsePages">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            Linea Ortopedica
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                                    data-bs-target="#pagesCollapseAuth" aria-expanded="false"
+                                    aria-controls="pagesCollapseAuth">
+                                    Familia
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+                                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
+                                    data-bs-parent="#sidenavAccordionPages">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/medicina-deportiva/">Medicina
+                                            Deportiva</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/trauma/">Trauma</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/fijacion-externa/">Fijacion
+                                            Externa</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/craneomaxilofacial/">Maxilo</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/endoprotesis/">Endoprotesis</a>
+                                        <a class="nav-link"
+                                            href="https://www.lineashospitalarias.com/osteosintesis/columna/">Columna</a>
+                                    </nav>
+                                </div>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Lod:</div>
+
+                </div>
+
+            </nav>
+        </div>
+        <!--_______________ Aqui inicia la vista___________ -->
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    <h1 class="mt-4">Agenda Comercial 📅</h1>
+
+                    <head>
+                        <meta charset='utf-8' />
+                        <script
+                            src='C:\Users\m_on_\Desktop\LOD\proyecto_LOD\fullcalendar-6.1.8\dist\index.global.js'></script>
+                        <script>
+
+                            document.addEventListener('DOMContentLoaded', function () {
+                                var calendarEl = document.getElementById('calendar');
+
+                                var calendar = new FullCalendar.Calendar(calendarEl, {
+                                    headerToolbar: {
+                                        left: 'prev,next today',
+                                        center: 'title',
+                                        right: 'dayGridMonth,timeGridWeek,timeGridDay'
+                                    },
+                                    initialDate: '2023-01-12',
+                                    navLinks: true, // can click day/week names to navigate views
+                                    selectable: true,
+                                    selectMirror: true,
+                                    select: function (arg) {
+                                        var title = prompt('Event Title:');
+                                        if (title) {
+                                            calendar.addEvent({
+                                                title: title,
+                                                start: arg.start,
+                                                end: arg.end,
+                                                allDay: arg.allDay
+                                            })
+                                        }
+                                        calendar.unselect()
+                                    },
+                                    eventClick: function (arg) {
+                                        if (confirm('Are you sure you want to delete this event?')) {
+                                            arg.event.remove()
+                                        }
+                                    },
+                                    editable: true,
+                                    dayMaxEvents: true, // allow "more" link when too many events
+                                    events: [
+                                        {
+                                            title: 'All Day Event',
+                                            start: '2023-01-01'
+                                        },
+                                        {
+                                            title: 'Long Event',
+                                            start: '2023-01-07',
+                                            end: '2023-01-10'
+                                        },
+                                        {
+                                            groupId: 999,
+                                            title: 'Repeating Event',
+                                            start: '2023-01-09T16:00:00'
+                                        },
+                                        {
+                                            groupId: 999,
+                                            title: 'Repeating Event',
+                                            start: '2023-01-16T16:00:00'
+                                        },
+                                        {
+                                            title: 'Conference',
+                                            start: '2023-01-11',
+                                            end: '2023-01-13'
+                                        },
+                                        {
+                                            title: 'Meeting',
+                                            start: '2023-01-12T10:30:00',
+                                            end: '2023-01-12T12:30:00'
+                                        },
+                                        {
+                                            title: 'Lunch',
+                                            start: '2023-01-12T12:00:00'
+                                        },
+                                        {
+                                            title: 'Meeting',
+                                            start: '2023-01-12T14:30:00'
+                                        },
+                                        {
+                                            title: 'Happy Hour',
+                                            start: '2023-01-12T17:30:00'
+                                        },
+                                        {
+                                            title: 'Dinner',
+                                            start: '2023-01-12T20:00:00'
+                                        },
+                                        {
+                                            title: 'Birthday Party',
+                                            start: '2023-01-13T07:00:00'
+                                        },
+                                        {
+                                            title: 'Click for Google',
+                                            url: 'http://google.com/',
+                                            start: '2023-01-28'
+                                        }
+                                    ]
+                                });
+
+                                calendar.render();
+                            });
+
+                        </script>
+                        <style>
+                            body {
+                                margin: 40px 10px;
+                                padding: 0;
+                                font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+                                font-size: 14px;
+                            }
+
+                            #calendar {
+                                max-width: 1100px;
+                                margin: 0 auto;
+                            }
+                        </style>
+                    </head>
+
+                    <body>
+
+                        <div id='calendar'></div>
+
+                    </body>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                    <a class="btn btn-primary" href="index.html">
+                        <center>Regresar</center>
+                    </a>
+                </div>
+            </main>
+
+        </div>
+    </div>
+    </div>
+    </footer>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="assets/demo/chart-area-demo.js"></script>
+    <script src="assets/demo/chart-bar-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
+        crossorigin="anonymous"></script>
+    <script src="js/datatables-simple-demo.js"></script>
+</body>
+
+</html>
